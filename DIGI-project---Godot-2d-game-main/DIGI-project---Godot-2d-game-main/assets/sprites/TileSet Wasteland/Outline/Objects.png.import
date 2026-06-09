@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://contrrvdcwhkk"
-path="res://.godot/imported/Background.png-1c70531aad9ade12abbb23cfba767f30.ctex"
+uid="uid://cahgfm2qa68u1"
+path="res://.godot/imported/Objects.png-c945549de0cd0127c42a4e195890c21c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/TileSet Wasteland/Layers/Background.png"
-dest_files=["res://.godot/imported/Background.png-1c70531aad9ade12abbb23cfba767f30.ctex"]
+source_file="res://assets/sprites/TileSet Wasteland/Outline/Objects.png"
+dest_files=["res://.godot/imported/Objects.png-c945549de0cd0127c42a4e195890c21c.ctex"]
 
 [params]
 
