@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://dm7co612mn25v"]
 
-[ext_resource type="Script" path="res://scenes/player.gd" id="1_05i5q"]
+[ext_resource type="Script" uid="uid://c2rwvv8upnsrx" path="res://scenes/player.gd" id="1_05i5q"]
 [ext_resource type="Texture2D" uid="uid://du5l7qo6pofwe" path="res://assets/lucia-barrero-idle-sam.png" id="1_t3lhv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gj8ep"]
@@ -68,7 +68,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_picwx"]
-radius = 13.1529
+radius = 5.0
 
 [node name="Player" type="CharacterBody2D"]
 z_index = 5
@@ -76,13 +76,13 @@ position = Vector2(590, 323)
 script = ExtResource("1_05i5q")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-1.47223e-05, -3.8147e-06)
-scale = Vector2(0.169344, 0.161244)
+position = Vector2(-1.5000002, 14.999982)
+scale = Vector2(0.06103275, 0.054852266)
 sprite_frames = SubResource("SpriteFrames_fd0hm")
 animation = &"idle"
 autoplay = "idle"
 frame_progress = 0.396452
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 11)
+position = Vector2(-1, 21)
 shape = SubResource("CircleShape2D_picwx")
